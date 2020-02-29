@@ -1,3 +1,4 @@
+//Autores: Gonzalez Moreno Federico, Osycka Liam.
 package com.example.pac_man;
 
 import androidx.appcompat.app.AppCompatActivity;
