@@ -121,9 +121,7 @@ public class DrawingView extends SurfaceView implements Runnable {
                         pacman.setPacmanInicio(true);
                     }
                     pacman.setVida(pacman.getVida() - 1);
-                    if (pacman.getVida() == 0) {
-                        //game over ver que hacer
-                    }
+
                     Globals.getInstance().setReiniciarJuego(false);
                 } else {
                     //vemos si el pacman tiene el powerUp activo
